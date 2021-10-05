@@ -16,7 +16,7 @@
 import os
 import pathlib
 
-PROJECT_NAME = "OctoBot"
+PROJECT_NAME = "Tradeli"
 AUTHOR = "DrakkarSoftware"
 SHORT_VERSION = "0.4.0"  # major.minor.revision
 PATCH_VERSION = ""  # patch : pX
@@ -25,7 +25,7 @@ VERSION_PHASE = "17"  # XX
 VERSION = f"{SHORT_VERSION}{VERSION_DEV_PHASE}{VERSION_PHASE}"
 LONG_VERSION = f"{SHORT_VERSION}{PATCH_VERSION}{VERSION_DEV_PHASE}{VERSION_PHASE}"
 
-# OctoBot urls
+# Bot urls
 OCTOBOT_WEBSITE_URL = os.getenv("OCTOBOT_ONLINE_URL", "https://www.octobot.online")
 OCTOBOT_DOCS_URL = os.getenv("DOCS_OCTOBOT_ONLINE_URL", "https://docs.octobot.online")
 EXCHANGES_DOCS_URL = os.getenv("DOCS_OCTOBOT_ONLINE_URL", "https://exchanges.docs.octobot.online/")
